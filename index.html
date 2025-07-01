@@ -7,28 +7,16 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>GPA Calculator</h1>
+  <div class="container">
+    <h1>GPA Calculator</h1>
 
-  <div class="input-section">
-    <input type="text" id="courseName" placeholder="Course Name" />
-    <input type="number" id="courseCredit" placeholder="Credit" />
-    <select id="courseGrade">
-      <option value="4.0">AA</option>
-      <option value="3.5">BA</option>
-      <option value="3.0">BB</option>
-      <option value="2.5">CB</option>
-      <option value="2.0">CC</option>
-      <option value="1.5">DC</option>
-      <option value="1.0">DD</option>
-      <option value="0.0">FF</option>
-    </select>
     <button onclick="addCourse()">Add Course</button>
+
+    <form id="courseForm"></form>
+
+    <button onclick="calculateGPA()">Calculate GPA</button>
+    <h2 id="result"></h2>
   </div>
-
-  <ul id="courseList"></ul>
-
-  <button onclick="calculateGPA()">Calculate GPA</button>
-  <h2 id="result"></h2>
 
   <script src="app.js"></script>
 </body>
