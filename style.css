@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input, select {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
